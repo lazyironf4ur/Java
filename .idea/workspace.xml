@@ -1,79 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c6b9436-7a71-453d-ad34-e77e4c53f296" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_22.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_3_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javatest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/alibaba/StringFindNumTotal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/offer/Fibonacci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/offer/NQueen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/offer/StringDevil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/sort/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/sort/DirectSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/sort/InsertSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/sort/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm/sort/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/collections/ArrayUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/collections/CollectionUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/collections/HashST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/collections/ListOp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/collections/pd/ArrayMin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gc/GcTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/inherit/Son.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/inherit/SonCreateService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/inherit/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/redis/DistributedLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/redis/MyJedisPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/TestVolatile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/VolatileMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/thread/executor/ExecutorsOp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/thread/executor/ThreadPoolOp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/thread/reentrantlock/LockInterrupted.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/alibaba/StringFindNumTotal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/sort/BubbleSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/sort/DirectSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/sort/InsertSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/sort/MergeSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/sort/QuickSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/tree/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/tree/BinarySearchTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/tree/rbtree/RBTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/tree/rbtree/RBTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/tree/rbtree/RBTreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/tree/rbtree/RBTreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classloader/ClassLoaderOp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/classloader/ClassLoaderOp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collections/ArrayUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collections/CollectionUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collections/HashST.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collections/ListOp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collections/pd/ArrayMin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gc/GcTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inherit/AbstractParent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inherit/AbstractParent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inherit/Parent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inherit/Parent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inherit/Son.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inherit/SonCreateService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inherit/test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/string/StringBuilderOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/string/StringBuilderOperation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/string/StringOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/string/StringOperation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thread/RunThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/thread/RunThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thread/ThreadLocalOp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/thread/ThreadLocalOp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thread/executor/ExecutorsOp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thread/executor/ThreadPoolOp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thread/reentrantlock/LockInterrupted.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thread/synchronize/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/thread/synchronize/Singleton.java" afterDir="false" />
-    </list>
+    <list default="true" id="4c6b9436-7a71-453d-ad34-e77e4c53f296" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -90,7 +18,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="494">
@@ -128,10 +56,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/redis/DistributedLock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
+            <state relative-caret-position="258">
               <caret line="44" column="32" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -261,7 +189,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="291" />
     <option name="width" value="1025" />
     <option name="height" value="916" />
@@ -286,6 +214,11 @@
             <path>
               <item name="javatest" type="b2602c69:ProjectViewProjectNode" />
               <item name="javatest" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javatest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javatest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -300,6 +233,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javatest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javatest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="javatest" type="b2602c69:ProjectViewProjectNode" />
@@ -450,7 +391,7 @@
       <workItem from="1569159143988" duration="1973000" />
       <workItem from="1570823394217" duration="3105000" />
       <workItem from="1570855909195" duration="8969000" />
-      <workItem from="1571531832905" duration="15620000" />
+      <workItem from="1571531832905" duration="16102000" />
     </task>
     <servers />
   </component>
@@ -487,12 +428,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="174371000" />
+    <option name="totallyTimeSpent" value="174853000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.44817927" visible="true" weight="0.22228146" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.44817927" visible="true" weight="0.22228146" />
       <window_info id="Structure" order="1" sideWeight="0.55182076" side_tool="true" weight="0.22228146" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" />
@@ -501,7 +443,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32917964" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.22245322" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" visible="true" weight="0.27338877" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.27338877" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -509,7 +451,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32952183" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Statistic" order="10" weight="0.32952183" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32848233" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32848233" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32952183" />
       <window_info anchor="bottom" id="Dependency Viewer" order="14" weight="0.32952183" />
@@ -632,13 +574,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/Program Files (x86)/rocketmq-all-4.2.0-bin-release/bin/play.cmd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="15" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/Program Files (x86)/rocketmq-all-4.2.0-bin-release/bin/runserver.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="758">
@@ -738,9 +673,6 @@
           <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javatest.iml">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/algorithm/offer/Fibonacci.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -908,14 +840,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/3.0.1/jedis-3.0.1.jar!/redis/clients/jedis/BinaryJedis.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -934,20 +858,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="311">
           <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/redis/MyJedisPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#470#471#0" expanded="true" />
-            <element signature="e#515#516#0" expanded="true" />
-            <element signature="e#548#549#0" expanded="true" />
-            <element signature="e#572#573#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1000,15 +910,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/redis/MyJedisPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#470#471#0" expanded="true" />
+            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#548#549#0" expanded="true" />
+            <element signature="e#572#573#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/redis/DistributedLock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
+        <state relative-caret-position="258">
           <caret line="44" column="32" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javatest.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-513" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
   </component>
   <component name="masterDetails">
