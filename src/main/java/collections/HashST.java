@@ -29,20 +29,7 @@ public class HashST {
             System.out.println("name: " + son.getName() + ", age: " + son.getAge());
         }
 
-        TreeMap treeMap = new TreeMap(new Comparator<Map.Entry>() {
-            @Override
-            public int compare(Map.Entry o1, Map.Entry o2) {
-                Son son1 = (Son) o1.getValue();
-                Son son2 = (Son) o2.getValue();
-                int flat = son1.getAge() - son2.getAge();
-                return flat;
-            }
-
-            @Override
-            public boolean equals(Object obj) {
-                return false;
-            }
-        });
+        TreeMap treeMap = new TreeMap();
         treeMap.putAll(remap);
         treeMap.forEach((k, v) -> System.out.println("key:" + k + ", value: " + v));
     }
