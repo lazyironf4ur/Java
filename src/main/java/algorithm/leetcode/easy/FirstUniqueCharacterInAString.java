@@ -13,44 +13,30 @@ public class FirstUniqueCharacterInAString {
         if ("".equals(s)) {
             return -1;
         }
+        int index = 0;
         char[] chars = s.toCharArray();
         Set<Character> set = new HashSet<>();
-        List<Node> nodeList = new LinkedList<>();
         for (int i = 0; i < chars.length; i++) {
             boolean flag = set.add(chars[i]);
-            Node node = new Node(chars[i], i);
             if (flag) {
-                nodeList.add(node);
+                index ++;
+                continue;
             } else {
-                if (nodeList.contains(node)) nodeList.remove(node);
+                if (index > 0) {
+                    for (int j = 0; j < index; j++) {
+                        if (chars[j] == chars[i]) chars[j] = ' ';
+                    }
+                } else return -1;
             }
         }
-        if (0 == nodeList.size()) {
-            return -1;
-        }
-        return nodeList.get(0).index;
-    }
-
-    static class Node {
-        public char c;
-        public int index;
-        public Node(char c, int index) {
-            this.c = c;
-            this.index = index;
+        for (int z = 0; z < chars.length; z++) {
+            if (chars[z] != ' ') return z;
         }
 
-        @Override
-        public boolean equals(Object obj) {
-            if (obj instanceof Node) {
-                if (this.c == ((Node) obj).c) return true;
-                else return false;
-            }
-            return false;
-        }
+        return -1;
 
     }
 
-    //TODO: 未完成
     //public static int firstUniqChar2(String s) {
     //    if ("".equals(s)) return -1;
     //    Map<Character, Integer> map = new HashMap<>();
@@ -72,11 +58,11 @@ public class FirstUniqueCharacterInAString {
     //}
 
     public static void main(String[] args) {
-        //String s = "leetcode";
-        //String s1 = "loveleetcode";
-        //String s2 = "cc";
-        //System.out.println(firstUniqChar(s));
-        //System.out.println(firstUniqChar(s2));
+        String s = "leetcode";
+        String s1 = "loveleetcode";
+        String s2 = "cc";
+        System.out.println(firstUniqChar(s));
+        System.out.println(firstUniqChar(s2));
 
     }
 }
