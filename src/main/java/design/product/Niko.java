@@ -10,8 +10,8 @@ import design.AbstractCsPlayer;
 public class Niko extends AbstractCsPlayer {
     public Niko(){};
 
-    Niko(String name, String gun) {
-        super(name, gun);
+    Niko(String name, String gun, Integer age) {
+        super(name, gun, age);
     }
 
     public void say() {

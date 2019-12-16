@@ -9,8 +9,8 @@ import design.AbstractCsPlayer;
 public class S1mple extends AbstractCsPlayer {
 
     public S1mple(){};
-    public S1mple(String name, String gun) {
-        super(name, gun);
+    public S1mple(String name, String gun, Integer age) {
+        super(name, gun, age);
     }
 
     public void say() {
