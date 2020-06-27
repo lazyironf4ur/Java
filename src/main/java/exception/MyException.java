@@ -54,4 +54,7 @@ public class MyException extends RuntimeException {
         throw new MyException("10002", "this is another customized exception");
     }
 
+    public static void directlyThrowExceptionTest() throws MyException {
+    }
+
 }
