@@ -30,15 +30,18 @@ public class Example1 {
         //example1.normalAdd();
         //example1.syncAdd();
         for (int i = 0; i < 100; i++) {
+            System.out.println(i);
+
             new Thread(() -> {
                 //example1.syncAdd1();
                 example1.normalAdd2();
-
             }).start();
         }
         Thread.currentThread().join();
         //Thread.sleep(1000);
+        System.out.println("操作结束");
         System.out.println(example1.a1);
         System.out.println(example1.a2);
+
     }
 }

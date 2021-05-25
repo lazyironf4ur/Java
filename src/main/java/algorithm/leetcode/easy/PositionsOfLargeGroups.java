@@ -18,9 +18,7 @@ public class PositionsOfLargeGroups {
         for (int i = 0; i < a.length - 1; i++) {
             if (a[i] == a[i+1]) {
                 len = len + 1;
-            }
-
-            if (a[i] != a[i+1] && len > 1) {
+            } else if (len > 1) {
                 List<Integer> posi = new ArrayList<>();
                 end = i;
                 start = end - len;
@@ -28,11 +26,7 @@ public class PositionsOfLargeGroups {
                 posi.add(end);
                 groups.add(posi);
                 len = 0;
-            }
-
-            if (a[i] != a[i+1] && len <= 1) {
-                len = 0;
-            }
+            } else len = 0;
 
         }
 

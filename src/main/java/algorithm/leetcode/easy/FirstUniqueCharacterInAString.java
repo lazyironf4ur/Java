@@ -1,5 +1,7 @@
 package algorithm.leetcode.easy;
 
+import com.alibaba.druid.sql.visitor.functions.Char;
+
 import java.util.*;
 
 /**
@@ -9,32 +11,23 @@ import java.util.*;
  */
 public class FirstUniqueCharacterInAString {
 
-    public static int firstUniqChar(String s) {
-        if ("".equals(s)) {
-            return -1;
-        }
-        int index = 0;
+
+    public static int firstUniqChar2(String s) {
         char[] chars = s.toCharArray();
-        Set<Character> set = new HashSet<>();
-        for (int i = 0; i < chars.length; i++) {
-            boolean flag = set.add(chars[i]);
-            if (flag) {
-                index ++;
-                continue;
-            } else {
-                if (index > 0) {
-                    for (int j = 0; j < index; j++) {
-                        if (chars[j] == chars[i]) chars[j] = ' ';
+        boolean[] flags = new boolean[chars.length];
+        for (int i = 0; i < chars.length - 1; i++) {
+            if (flags[i] != true) {
+                for (int j = i+1; j < chars.length; j++) {
+                    if (chars[i] == chars[j]) {
+                        flags[i] = flags[j] = true;
                     }
-                } else return -1;
+                }
             }
         }
-        for (int z = 0; z < chars.length; z++) {
-            if (chars[z] != ' ') return z;
+        for (int i = 0; i < flags.length; i++) {
+            if (flags[i] == false) return i;
         }
-
         return -1;
-
     }
 
     //public static int firstUniqChar2(String s) {
@@ -61,8 +54,11 @@ public class FirstUniqueCharacterInAString {
         String s = "leetcode";
         String s1 = "loveleetcode";
         String s2 = "cc";
-        System.out.println(firstUniqChar(s));
-        System.out.println(firstUniqChar(s2));
+        String s3 = "asssavffwqqwdqdqf";
+        System.out.println(firstUniqChar2(s));
+        System.out.println(firstUniqChar2(s1));
+        System.out.println(firstUniqChar2(s2));
+        System.out.println(firstUniqChar2(s3));
 
     }
 }

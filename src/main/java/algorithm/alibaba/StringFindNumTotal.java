@@ -28,13 +28,16 @@ public class StringFindNumTotal {
         }
         List<Map.Entry> sortList = new ArrayList<>();
         sortList.addAll(map.entrySet());
-        Collections.sort(sortList, new Comparator<Map.Entry>() {
-            @Override
-            public int compare(Map.Entry o1, Map.Entry o2) {
-                Integer value1 = (Integer) (o1.getValue());
-                Integer value2 = (Integer) (o2.getValue());
-                return value2 - value1;
-            }
+//        Collections.sort(sortList, new Comparator<Map.Entry>() {
+//            @Override
+//            public int compare(Map.Entry o1, Map.Entry o2) {
+//                Integer value1 = (Integer) (o1.getValue());
+//                Integer value2 = (Integer) (o2.getValue());
+//                return value2 - value1;
+//            }
+//        });
+        Collections.sort(sortList, (o1, o2) -> {
+            return  (Integer) o2.getValue() - (Integer) o1.getValue();
         });
 
         if (sortList != null) {
@@ -49,7 +52,7 @@ public class StringFindNumTotal {
 
 
     public static void main(String[] args) {
-        String s = "4648d86sw86ws82sasw0j86j";
+        String s = "4648d86sw186ws8248sasw0j4948j";
         System.out.println(func(s));
     }
 }
